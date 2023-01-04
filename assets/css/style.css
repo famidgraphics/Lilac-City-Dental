@@ -1,0 +1,581 @@
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black:#222222;
+    --blue:#005b8b;
+    --gray:#555555;
+    --bg-light:#eff9fd;
+    --b-light:#49b5dc;
+    --bg-blue:#61c2ee;
+    --btn-blue:#30aad7;
+}
+
+.container {
+    max-width: 1200px;
+    border-block-end-width: 100%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* ----------------topbar-section------------------- */
+.topbar-section {
+    background: var(--black);
+}
+.topbar-section .row .contact-iteam ul li span {
+    color: #30aad7;
+    margin-right: 8px;
+    
+}
+.topbar-section .row .contact-iteam ul li {
+    margin-right: 44px;
+}
+.topbar-section .row .contact-iteam ul li a {
+    font-size: 12px;
+    font-family: Montserrat-Light;
+}
+.topbar-section .row .social-icon ul {
+    color: #eff9fd;
+    
+}
+.topbar-section .row .social-icon ul li{
+    margin-left: 8px;
+    
+}
+
+/* ----------------------banner-section---------------------------- */
+
+.banner-section {
+    background-image: url(../img/bannar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0;
+}
+
+.banner-section .secon-tow {
+    padding: 187px 0 259px 0;
+}
+.banner-section .secon-tow .banner-btn {
+    padding-top: 26px;
+}
+
+.banner-section h1 {
+    font-family: Montserrat-Bold;
+    font-size: 57px;
+    line-height: 63px;
+    color: white;
+}
+.banner-section p {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.banner-btn {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+.banner-btn a {
+    background: #30aad7;
+}
+.banner-btn .btn-one a {
+    background: #9b95c9;
+}
+
+/* ---------------relaxed------------------ */
+
+.relaxed-section {
+    border-block-end-width: 100%;
+}
+
+.relaxed-section .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+
+.relaxed-section .relaxed-one,
+.relaxed-section .relaxed-two,
+.relaxed-section .relaxed-three {
+    font-family: Montserrat-Bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    text-align: center;
+}
+.relaxed-section .relaxed-one {
+    background: #61c2ee;
+}
+.relaxed-section .relaxed-two {
+    background: #30aad7;
+}
+.relaxed-section .relaxed-three {
+    background: #005b8b;
+}
+
+/* ------------------------- dentist----------------------- */
+
+.dentist-section h2 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--blue);
+}
+.dentist-section p {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--gray);
+}
+.dentist-section .dentist-title {
+    padding: 96px 0 37px 0;
+}
+
+
+
+
+.dentist-section .secon-row  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.dentist-section .secon-row h5 {
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 27px 0 15px 0;
+}
+.dentist-section .secon-row p {
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 48px;    
+}
+.dentist-section .secon-row img {
+    padding-top: 41px;
+    
+}
+.dentist-section .secon-row .dentist-image {
+    background: var(--bg-light);
+    border-radius: 10px;
+}
+
+.banner-btn {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/* ---------------Technology----------------------------- */
+
+.Technology-section {
+    background-image: url(../img/b1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 166px;
+}
+.Technology-section .headline h1 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--blue);    
+}
+.Technology-section .headline h6 {
+    font-family: Montserrat-Light;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--b-light);    
+}
+.Technology-section .headline p {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 92%;
+}
+
+.Technology-section .banner-btn {
+    padding-top: 27px;
+}
+
+/* ------------------------Friendly-section------------------------- */
+
+.Friendly-section {
+    background-image: url(../img/b2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 166px;
+}
+
+.Friendly-section .headline h1 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--blue);    
+}
+.Friendly-section .headline h6 {
+    font-family: Montserrat-Light;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--b-light);    
+}
+.Friendly-section .headline p {
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 92%;
+}
+
+.Friendly-section .banner-btn {
+    padding-top: 26px;
+}
+
+/* ------------------Trust------------------------ */
+
+.Trust-section {
+    padding: 76px 0 81px 0;
+    background: var(--bg-blue);
+}
+
+.Trust-section .trust-title h2 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+       
+}
+.Trust-section .trust-title p {
+    font-family: Montserrat-light;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 30px;       
+}
+.Trust-section .Trust-btn a {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--blue);    
+}
+
+/* -----------------easy-section------------------------ */
+
+.easy-section .easy-title h3 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--blue);
+    padding-top: 98px;
+}
+.easy-section .easy-title p {
+    font-family: Montserrat-light;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.easy-section .icons h1 {
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 28px 0 15px 0;
+}
+.easy-section .icons p {
+    font-family: Montserrat-light;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 57px;
+    max-width: 92%;
+}
+
+
+.easy-section .easy-btn a {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    background: var(--bg-blue);
+}
+
+/* ----------------------------Testimonials-------------------------- */
+
+.Testimonials-section {
+    background: var(--btn-blue);
+    margin: 100px 0;
+}
+.Testimonials-section .Testimonials-title {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;    
+}
+.Testimonials-section .testimonials p {
+    font-family: Montserrat-light;
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 97%;       
+}
+.Testimonials-section .author-des h5 {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    line-height: 22px;      
+}
+.Testimonials-section .author-des p {
+    font-family: Montserrat-light;
+    font-size: 16px;
+    line-height: 6px;      
+}
+
+.Testimonials-section .testimonials p {
+    position: relative;
+}
+.Testimonials-section .testimonials p::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: url(../img/c1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    top: -10px;
+    left: -5px;    
+}
+.Testimonials-section .testimonials p::after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: url(../img/c2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    bottom: 0;
+    right: -5px;   
+}
+
+/* ---------------------Services------------------------- */
+
+ul {
+    list-style: none;
+}
+
+.service-title h1 {
+color: var(--blue);
+font-family: Montserrat-Bold;
+font-size: 48px;
+line-height: 54px; 
+padding-bottom: 48px;
+}
+.service-list ul li {
+    position: relative;
+}
+.service-list ul li::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: url(../img/s1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+   
+}
+
+.service-list ul li b {
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.service-list ul li {
+    font-family: Montserrat-light;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px 0;
+    max-width: 97%;
+}
+
+/* ------------------Oral-pain----------------------- */
+
+.Oral-pain-section .row {
+    background: var(--bg-light);
+}
+.pain-title h1 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    padding-top: 78px;
+    color: var(--blue);
+}
+.pain-title p {    
+    font-family: Montserrat-light;
+    font-size: 18px;
+     line-height: 24px;
+     max-width: 86%;
+     padding-left: 200px;
+}
+
+/* ---------------------------about-us------------------------- */
+
+.about-heardline h1 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    color: var(--blue);
+}
+.about-heardline p {
+    font-family: Montserrat-light;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--gray);
+    max-width: 92%;
+}
+.read-more {
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--btn-blue);
+}
+
+/* --------------------------image--------------------------- */
+
+/* ------------------smile----------------------- */
+
+.smile-section .row {
+    background: var(--blue);
+}
+.smile-title h1 {
+    font-family: Montserrat-Bold;
+    font-size: 48px;
+    line-height: 54px;
+    padding-top: 78px;
+}
+.smile-title p {    
+    font-family: Montserrat-light;
+    font-size: 18px;
+     line-height: 24px;
+     max-width: 86%;
+     padding-left: 200px;
+}
+
+/* ----------------------------footer------------------------------ */
+
+.footer-section {
+    background: var(--black);
+}
+.footer-section .Contact ul li span {
+    color: var(--btn-blue);    
+}
+.footer-section .footer-image {
+    padding-top: 56px;   
+}
+.footer-section .Contact h3 {
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 56px;
+    
+}
+.footer-section .Contact ul li {
+    font-family: Montserrat-light;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer-section .Contact-HOURS h3 {
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 56px;
+    
+}
+.footer-section .Contact-HOURS ul li {
+    font-family: Montserrat-light;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer-section .secon-row .footer-dts p {
+    font-family: Montserrat-light;
+    font-size: 13px;
+    line-height: 19px;
+    padding-top: 37px;
+    padding-bottom: 27px;
+    max-width: 97%;
+}
+.footer-section .secon-row .footer-pictures img {
+    padding-top: 68px;
+    padding-left: 45px;
+}
+.Contact ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ------------------last-bar------------------------- */
+
+.last-bar {
+    background: #1b1b1b;
+}
+.last-bar span {
+    color: var(--btn-blue);
+}
+.last-bar .row {
+    font-family: Montserrat-light;
+    font-size: 13px;
+    line-height: 19px;
+    
+}
+.last-bar .social-icon ul li {
+    color: var(--bg-light);
+    margin-right: 8px;
+    align-items: center;
+}
+
+.last-bar .row {
+    padding: 32px 0;
+}
